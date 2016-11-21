@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoveInterestHeaderView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ju2-rR-UmK" customClass="LoveInterestHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="26"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="是否已兑换" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0L-es-3jP">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="1hy-q4-76B"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="礼品名称" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quv-0V-053">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="dJk-Io-WdP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="礼品数量" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Gl-Qp-Ker">
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.49803921568627452" green="0.41568627450980389" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9Gl-Qp-Ker" firstAttribute="leading" secondItem="quv-0V-053" secondAttribute="trailing" constant="30" id="1cV-dP-T3L"/>
+                <constraint firstAttribute="bottom" secondItem="e0L-es-3jP" secondAttribute="bottom" id="9Ug-Hd-O5h"/>
+                <constraint firstItem="e0L-es-3jP" firstAttribute="leading" secondItem="9Gl-Qp-Ker" secondAttribute="trailing" constant="29.5" id="OIX-Mi-gDX"/>
+                <constraint firstAttribute="bottom" secondItem="quv-0V-053" secondAttribute="bottom" id="Pfd-ZX-fR7"/>
+                <constraint firstItem="9Gl-Qp-Ker" firstAttribute="top" secondItem="ju2-rR-UmK" secondAttribute="top" id="UvD-Pw-erS"/>
+                <constraint firstItem="quv-0V-053" firstAttribute="top" secondItem="ju2-rR-UmK" secondAttribute="top" id="W93-t3-4NZ"/>
+                <constraint firstItem="e0L-es-3jP" firstAttribute="top" secondItem="ju2-rR-UmK" secondAttribute="top" id="Zh6-4s-AJt"/>
+                <constraint firstAttribute="bottom" secondItem="9Gl-Qp-Ker" secondAttribute="bottom" id="mGg-9n-OIg"/>
+                <constraint firstItem="quv-0V-053" firstAttribute="leading" secondItem="ju2-rR-UmK" secondAttribute="leading" constant="8" id="pDR-GN-kIf"/>
+                <constraint firstAttribute="trailing" secondItem="e0L-es-3jP" secondAttribute="trailing" constant="8" id="t26-H8-lnn"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="375" y="178"/>
+        </view>
+    </objects>
+</document>

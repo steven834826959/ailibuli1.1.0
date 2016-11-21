@@ -7,6 +7,18 @@
 //
 
 #import "AppDelegate.h"
+#import "StatutVC.h"
+#import "ProductVC.h"
+#import "ServiceVC.h"
+#import "ManageVC.h"
+#import "MyVC.h"
+#import <AFNetworking.h>
+
+
+
+#import "NewFeatureController.h"
+
+#import "RootViewControllerTool.h"
 
 @interface AppDelegate ()
 
@@ -14,11 +26,25 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [NSThread sleepForTimeInterval:0.5];//设置启动页面时间
+    
+
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    RootViewControllerTool *root = [RootViewControllerTool new];
+
+    self.window.rootViewController = [root returenVc];
+    
+    [self.window makeKeyAndVisible];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

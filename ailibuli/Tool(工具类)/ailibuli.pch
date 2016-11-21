@@ -1,0 +1,32 @@
+
+
+
+/*
+ pch里面所有东西,被所有文件共享
+ 
+ pch作用
+ 1.存放公用宏
+ 2.存放公用头文件
+ 3.自定义Log
+ 
+ pch步骤:一定要提前编译
+ */
+
+
+#import "UIView+Frame.h"
+
+#import <Masonry.h>
+#import <AFNetworking.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "UIButton+WebCache.h"
+#import "HiddenLine.h"
+#import "UIAlertController+InternetErrorAlert.h"
+
+#define kScreenH [UIScreen mainScreen].bounds.size.height
+#define kScreenW [UIScreen mainScreen].bounds.size.width
+#define BGColor [UIColor colorWithRed:73.0/255 green:187.0/255 blue:180.0/255 alpha:1]
+#define NavColor [UIColor colorWithRed:122.0/255 green:203.0/255 blue:188.0/255 alpha:1]
+#define kColor(R,G,B) [UIColor colorWithRed:R/255.f green:G/255.f blue:B/255.f alpha:1.0]
+#define IPAdd1 http://mapi.loveyongtong.com/
+#define IPAdd2 http://mobile.loveyongtong.com/
+

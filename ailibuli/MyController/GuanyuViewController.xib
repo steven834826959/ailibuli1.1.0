@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GuanyuViewController">
+            <connections>
+                <outlet property="aboutusConent" destination="d6J-hs-x4l" id="Yx6-AH-lLT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="aMR-11-PwU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="背景@2x-1" translatesAutoresizingMaskIntoConstraints="NO" id="ezT-bs-OMw"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="上背景" translatesAutoresizingMaskIntoConstraints="NO" id="v2E-uI-UYw"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pLJ-vI-tL7">
+                    <color key="backgroundColor" red="0.47058823529411764" green="0.47450980392156861" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="关于永同" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHo-cS-lmN">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="U22-Wh-9DX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="d6J-hs-x4l">
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <string key="text">    永同资产，公司全称“上海永同资产管理有限公司”。2014年9月在上海注册成立，注册资金一亿元人民币，公司总部地址位于上海陆家嘴太平金融大厦，是一家致力于创新发展多产业链的服务型企业。在金融改革与创新政策推动下，利用先进的信息技术手段，以及先进健全的风险管控体系，公司已为众多机构、企业和投资者提供了风险评估、资讯核准、信息匹配、风控管理等综合性资产流动顾问服务，并成为广大投资者首选的金融信息服务品牌公司。永同资产将不断发挥品牌优势，通过优质服务及组织模式创新，为客户打造一个中国领先的安全、专业、透明、便捷的财富增值金融信息服务。
+创办宗旨：
+以核心理念为导向，服务大众。打造以“爱情贴心”服务为核心的优质金融信息服务平台。永同资产致力于打造一个集安全、健全、共赢为一体的多元化资产配置平台。秉承着：“永携手，同享禄”的宗旨，为每一位选择与永同资产携手面对财富管理的客户提供中国领先的资产配置信息服务。并在资产配置过程中提供完善的风险评估、透明的信息资源以及专业配资的建议。
+
+
+核心理念：
+永携手，同享禄。
+
+公司前景
+近年来中国市场经济发展迅猛，融资是每个企业面临的重大任务，国有及大型民营企业从银行融资相对容易，但充当市场经济重要部分的中小企业、三农及个体工商户融资难却已是不争的事实，因而国家在政策上陆续推出民间借贷服务中心、小额贷款公司、担保公司以及网贷平台等民间金融机构。巨大的市场需求，广阔的发展前景，国家的政策支持，使永同资产管理有限公司更具竞争力。
+
+
+联系我们
+财富管理热线：4009671969
+总机：021-68812078
+服务时间：周一至周五 9：00-17:30
+网址：
+地址：上海市浦东新区银城中路488号太平金融大厦3502室
+
+招贤纳士
+………..
+
+公司荣誉
+2015年7月中国影响力品牌高峰论坛中国金融服务AAA级诚信企业
+2015年7月中国企业信用建设发展峰会2015年度中国金融最佳 风控平台
+2015年9月第10届亚洲品牌盛典“亚洲名优品牌奖”
+
+社会责任
+2015 年7月10日，上海永同资产管理有限公司正式开业，标志着永同资产正式投入运营。自开业以来紧紧把握当今经济发展趋势，从中国民间借贷的现状出发，科学引入先进的风险控制理念，通过资产配置平台，将有资产配置需求的客户有机整合，并通过科学合理、快速便捷的业务操作流程，为客户提供一站式服务，使客户和公司双方都获得收益。     
+目前公司着力打造电子商务经营系统，在更大范围、更高层次、更佳路径上进行资金、项目、人脉的资源整合，实现资源配置的优化，开创民间融资的一个全新的商业模式。
+永同资产作为立足上海、放眼全国的投资管理服务机构，坚持以诚信为本，经营的是信用、管理的是风险，以“合法、专业、规范、 高效、共赢”为经营理念；以“诚信、稳健、持续、效率、责任”为发展宗旨。以“激活民间资本、扶助中小企业、服务地方经济”为公司的使命。目前公司主营：资本运营与投资管理咨询服务、商务信息咨询等服务项目。严格执行“不集资、不吸储、不放贷、不摸钱、不成功不收费”的合法经营原则。
+  永同资产高级管理人员具有银行、证券、保险等金融行业管理经验，主要管理人员均来自于投融资管理、保险、信息、工商管理等金融服务行业的精英，具有极强的团队意识和发展理念。在管理上，建立了一整套科学的管理制度和风险评估保障体系，实行了信用评估、风险核查、风险化解等各个环节的标准化和专业化管理。在严谨、科学的经营管理中探索出的以中介服务为主的独特商业服务模式，突破常规，超越发展，我们有信心将公司创建成为民间借贷中介服务知名品牌。在世界经济高度发达、中国经济持续高速发展的今天，民间金融业的竞争也越来越激烈。面对竞争，公司将内抓管理，外拓市场，致力于不断拓展投融资渠道、建立并发展与各大银行、小贷公司、投资公司、担保公司、基金、保险等机构投资商及有富余资金客户的长期战略合作伙伴关系，不断增强可持续信用资源，实现社会资源的优化配置，共同缔造互利多赢的合作关系，在发展中强大，在创新中超越。
+未来十年，中国民间融资及民间资本将迎来一个重要的发展机遇期。永同资产将乘着党的十八大东风，牢牢把握经济社会发展变革的时代脉搏，居安思危、推陈出新，以独创、科学的“永同投融资服务”模式，凭借安全快捷，灵活高效的操作方式，良好的经营业绩和规范的管理体系，引领民间金融业展翅高飞，共创盛世财富！
+
+</string>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="eHo-cS-lmN" secondAttribute="trailing" constant="16" id="3Uz-mC-tJn"/>
+                <constraint firstAttribute="bottom" secondItem="pLJ-vI-tL7" secondAttribute="bottom" constant="49" id="5d3-xc-yEq"/>
+                <constraint firstAttribute="trailing" secondItem="v2E-uI-UYw" secondAttribute="trailing" id="79s-iP-jNV"/>
+                <constraint firstItem="d6J-hs-x4l" firstAttribute="top" secondItem="eHo-cS-lmN" secondAttribute="bottom" constant="10" id="7gI-S7-bDY"/>
+                <constraint firstItem="pLJ-vI-tL7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="14" id="CTy-DZ-4lq"/>
+                <constraint firstItem="d6J-hs-x4l" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="DGy-ok-KfL"/>
+                <constraint firstAttribute="bottom" secondItem="ezT-bs-OMw" secondAttribute="bottom" id="HnT-Ob-k08"/>
+                <constraint firstItem="v2E-uI-UYw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NZn-BP-qm7"/>
+                <constraint firstAttribute="bottom" secondItem="v2E-uI-UYw" secondAttribute="bottom" id="ToC-kx-Jb9"/>
+                <constraint firstAttribute="trailing" secondItem="ezT-bs-OMw" secondAttribute="trailing" id="Y0z-7l-mhX"/>
+                <constraint firstItem="pLJ-vI-tL7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="Y3X-0w-y8l"/>
+                <constraint firstItem="ezT-bs-OMw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="-1" id="blx-6n-12A"/>
+                <constraint firstItem="eHo-cS-lmN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="eIg-bd-5OP"/>
+                <constraint firstAttribute="trailing" secondItem="pLJ-vI-tL7" secondAttribute="trailing" constant="16" id="n81-aW-kLE"/>
+                <constraint firstAttribute="bottom" secondItem="d6J-hs-x4l" secondAttribute="bottom" constant="68" id="nwd-z7-ZMc"/>
+                <constraint firstItem="eHo-cS-lmN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="o1e-aq-QMX"/>
+                <constraint firstItem="ezT-bs-OMw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="o7U-bk-l9H"/>
+                <constraint firstAttribute="trailing" secondItem="d6J-hs-x4l" secondAttribute="trailing" constant="16" id="rz4-wh-wZa"/>
+                <constraint firstItem="v2E-uI-UYw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="t0O-Bd-lNc"/>
+            </constraints>
+            <point key="canvasLocation" x="32.5" y="62.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="上背景" width="320" height="460"/>
+        <image name="背景@2x-1" width="640" height="1136"/>
+    </resources>
+</document>

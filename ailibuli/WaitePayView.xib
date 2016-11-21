@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="lwC-1f-551" customClass="WaitePayView">
+            <rect key="frame" x="0.0" y="0.0" width="534" height="229"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="购买金额" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nIe-zn-dYl">
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="购买状态" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aj7-cw-c4M">
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="产品名称" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glQ-7T-l8S">
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="购买数量" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BhE-4C-rfB">
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.89803921568627454" green="0.43137254901960786" blue="0.51372549019607838" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="BhE-4C-rfB" firstAttribute="top" secondItem="glQ-7T-l8S" secondAttribute="top" id="1FY-ia-Wih"/>
+                <constraint firstItem="nIe-zn-dYl" firstAttribute="leading" secondItem="BhE-4C-rfB" secondAttribute="trailing" id="4mx-A1-6KU"/>
+                <constraint firstItem="aj7-cw-c4M" firstAttribute="width" secondItem="nIe-zn-dYl" secondAttribute="width" id="56q-nm-1Vf"/>
+                <constraint firstItem="glQ-7T-l8S" firstAttribute="leading" secondItem="lwC-1f-551" secondAttribute="leading" id="5cE-Vm-4q2"/>
+                <constraint firstItem="BhE-4C-rfB" firstAttribute="leading" secondItem="glQ-7T-l8S" secondAttribute="trailing" id="7ee-un-yFb"/>
+                <constraint firstItem="nIe-zn-dYl" firstAttribute="width" secondItem="BhE-4C-rfB" secondAttribute="width" id="8Mj-RS-s50"/>
+                <constraint firstItem="glQ-7T-l8S" firstAttribute="width" secondItem="lwC-1f-551" secondAttribute="width" multiplier="0.25" id="A0P-ad-VVK"/>
+                <constraint firstItem="glQ-7T-l8S" firstAttribute="height" secondItem="lwC-1f-551" secondAttribute="height" id="AeP-FT-KNM"/>
+                <constraint firstItem="nIe-zn-dYl" firstAttribute="height" secondItem="BhE-4C-rfB" secondAttribute="height" id="BuE-SR-DrA"/>
+                <constraint firstItem="glQ-7T-l8S" firstAttribute="top" secondItem="lwC-1f-551" secondAttribute="top" id="Fc5-5b-wXy"/>
+                <constraint firstItem="aj7-cw-c4M" firstAttribute="top" secondItem="nIe-zn-dYl" secondAttribute="top" id="OMt-lG-Aib"/>
+                <constraint firstItem="aj7-cw-c4M" firstAttribute="height" secondItem="nIe-zn-dYl" secondAttribute="height" id="Z32-j9-lVx"/>
+                <constraint firstItem="nIe-zn-dYl" firstAttribute="top" secondItem="BhE-4C-rfB" secondAttribute="top" id="gKz-ku-456"/>
+                <constraint firstItem="BhE-4C-rfB" firstAttribute="width" secondItem="glQ-7T-l8S" secondAttribute="width" id="pKh-1q-wwt"/>
+                <constraint firstItem="BhE-4C-rfB" firstAttribute="height" secondItem="glQ-7T-l8S" secondAttribute="height" id="tbb-I4-icV"/>
+                <constraint firstItem="aj7-cw-c4M" firstAttribute="leading" secondItem="nIe-zn-dYl" secondAttribute="trailing" id="zj7-1E-u8V"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="501" y="-68.5"/>
+        </view>
+    </objects>
+</document>
